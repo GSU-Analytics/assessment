@@ -21,8 +21,8 @@ To use this repository, follow these steps to copy/download the files and set up
 ### 1. Copy or Download the Repository
 - **Clone the repository**:
    ```bash
-   git clone https://github.com/GSU-Analytics/student_success_assessment.git
-   cd student_success_assessment
+   git clone https://github.com/GSU-Analytics/assessment.git
+   cd assessment
    ```
 - **Download key files**:
    - `university_analysis.ipynb`: The notebook containing the tasks.
@@ -48,14 +48,14 @@ To use this repository, follow these steps to copy/download the files and set up
 
 ---
 
-### B. Running Locally with Conda and `environment.yml`
+### B. Running Locally with Conda and `environment.yaml`
 
 1. **Set up the environment**:
    - Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/).
    - Create and activate the environment:
      ```bash
-     conda env create -f environment.yml
-     conda activate university_db
+     conda env create -f environment.yaml
+     conda activate assessment
      ```
 2. **Run the notebook**:
    ```bash
